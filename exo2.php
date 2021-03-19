@@ -6,11 +6,11 @@
  * and open the template in the editor.
  */
 
-echo 'Écrire un programme qui écrit 100 fois "Je dois apprendre mon cours" </br>';
+echo 'Écrire un programme qui écrit 100 fois "Je dois apprendre mon cours" <br><br>',"\n";
 
 for($i = 0; $i < 100 ; $i++) 
 {
-    echo 'Je dois apprendre mon cours </br>';
+    echo 'Je dois apprendre mon cours <br>',"\n";
 }
 
 ?>

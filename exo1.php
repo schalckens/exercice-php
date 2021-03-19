@@ -6,16 +6,22 @@
  * and open the template in the editor.
  */
 
-echo 'Écrire un programme PHP qui affiche tous les nombres impairs   entre 0 et 10000, par ordre croissant : "1 3 5 7 ... 9995 9997 9999" </br>';
+echo 'Écrire un programme PHP qui affiche tous les nombres impairs   entre 0 et 10000, par ordre croissant : "1 3 5 7 ... 9995 9997 9999" <br><br>', "\n\n";
 
 
-for($i = 0; $i < 10000; $i++)
+/*for($i = 0; $i < 10000; $i++)
 {
     if($i % 2 !== 0) 
     {
         print($i);
-        echo '</br>';
+        echo '<br>';
     }
+ 
+ */
+
+for($i=1; $i < 10000; $i+=2) 
+{
+    echo $i, '<br>', "\n";
 }
 
 ?>
