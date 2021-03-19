@@ -15,5 +15,16 @@ for($i = 30; $i > 1; $i--)
 }
 echo 'La factorielle est égale à : ', $som;
 
+//correction
+
+
+for($f=1,$i=2;$i<=30;$i++) 
+{
+    $f *= $i;
+}
+echo "30! = $f";
+//ou
+echo '30! = ',$f;
+
 
 ?>
