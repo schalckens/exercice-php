@@ -13,4 +13,8 @@ for($i = 0; $i < 100 ; $i++)
     echo 'Je dois apprendre mon cours <br>',"\n";
 }
 
+for($i = 1; $i <= 100 ; $i++) 
+{
+    echo "$i Je dois apprendre mon cours <br> \n";
+}
 ?>
