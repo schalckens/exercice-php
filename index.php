@@ -20,6 +20,9 @@
                 <li>
                     <a href="exo3.php">Exercice 3</a>
                 </li>
+                <li>
+                    <a href="table13.php">Exercice 4 : Table 13</a>
+                </li>
             </ul>
         </div>
     </body>
