@@ -15,6 +15,6 @@ table,td,tr,th {
 }
 th {
     padding: 15px 15px 15px 15px;
-    background-color: lightblue;
+    background-color: lightpink!important;
 }
 

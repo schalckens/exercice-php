@@ -23,6 +23,9 @@
                 <li>
                     <a href="table13.php">Exercice 4 : Table 13</a>
                 </li>
+                <li>
+                    <a href="table1-12.php">Exercice 5 : Table de multiplication de 1 à 12</a>
+                </li>
             </ul>
         </div>
     </body>
