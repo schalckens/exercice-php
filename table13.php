@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+
+<html lang="fr">
     <head>
         <link href="table13.css" rel="stylesheet" type="text/css"/>
         <title>Table de 13</title>
@@ -22,7 +22,7 @@
                             <th>
                                 <?php
                                 $m = $i * $j;
-                                echo $m, "</br>";
+                                echo $m;
                                 ?>
                             </th>
                         <?php
@@ -31,7 +31,7 @@
                             <td>
                                 <?php
                                 $m = $i * $j;
-                                echo $m, "</br>";
+                                echo $m;
                                 ?>
                             </td>
                         <?php } ?>
