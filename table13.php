@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="fr">
     <head>
         <link href="table13.css" rel="stylesheet" type="text/css"/>
@@ -7,26 +7,18 @@
     <body>
         <table>
             <thead>
-            <th colspan="13"> Table de 13</th>
-        </thead>
-        <tbody>
-            <?php
-            $m = 1;
-            for ($i = 1; $i < 14; $i++) {
-                ?>
                 <tr>
-                    <?php
-                    for ($j = 1; $j < 14; $j++) {
-                        if ($j === 1 or $i===1) {
-                            ?>
-                            <th>
-                                <?php
-                                $m = $i * $j;
-                                echo $m;
-                                ?>
-                            </th>
+                    <th colspan="13"><p>Table de 13</p></th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                $m = 1;
+                for ($i = 1; $i < 14; $i++) {
+                    ?>
+                    <tr>
                         <?php
-                        } else {
+                        for ($j = 1; $j < 14; $j++) {
                             ?>
                             <td>
                                 <?php
@@ -34,12 +26,11 @@
                                 echo $m;
                                 ?>
                             </td>
-                        <?php } ?>
-                    <?php } ?> 
-                </tr>
-            <?php } ?> 
-        </tbody>
-    </table>
-</body>
+                        <?php } ?> 
+                    </tr>
+                <?php } ?> 
+            </tbody>
+        </table>
+    </body>
 
 

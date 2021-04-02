@@ -13,15 +13,6 @@ table, td, th {
     text-align: center;
     border: 1px solid black;
 }
-tr td:nth-child(1) {
-    padding: 15px 15px 15px 15px;
-    background-color: lightpink!important;
-}
-
-tr:nth-child(1) {
-    padding: 15px 15px 15px 15px;
-    background-color: lightpink!important;
-}
 thead, th, p{
    font-size: 30px;
    font-weight : bold;

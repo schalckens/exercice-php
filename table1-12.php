@@ -1,13 +1,14 @@
+<!DOCTYPE html>
 <html lang="fr">
     <head>
-        <link href="table13.css" rel="stylesheet" type="text/css"/>
-        <title>Table de 13</title>
+        <link href="table1-12.css" rel="stylesheet" type="text/css"/>
+        <title>Table de multiplication de 1 à 12</title>
     </head>
     <body>
         <table>
             <thead>
                 <tr>
-                    <th colspan="6" style="background-color: lightpink;"> <h1>Table de multiplication</h1> </th>
+                    <th colspan="6" style="background-color: lightpink;"> <p>Table de multiplicationde 1 à 12</p> </th>
                 </tr>
             </thead>
             <tbody>
@@ -19,12 +20,12 @@
                         ?>
                 
                         <td>
-                            <h3><?php echo 'Table de ', $i, '</br>', "\n";?></h3>
+                            <h3><?php echo 'Table de ', $i, '<br>', "\n";?></h3>
                             <?php
                             for ($j = 0; $j < 13; $j++) {
 
                                 $m = $i * $j;
-                                echo $i, ' x ', $j, ' = ', $m, '</br>', "\n";
+                                echo $i, ' x ', $j, ' = ', $m, '<br>', "\n";
                             }
                             ?>
                             </td>
@@ -38,12 +39,12 @@
                         ?>
                 
                         <td>
-                            <h3><?php echo 'Table de ', $i, '</br>', "\n";?></h3>
+                            <h3><?php echo 'Table de ', $i, '<br>', "\n";?></h3>
                             <?php
                             for ($j = 0; $j < 13; $j++) {
 
                                 $m = $i * $j;
-                                echo $i, ' x ', $j, ' = ', $m, '</br>', "\n";
+                                echo $i, ' x ', $j, ' = ', $m, '<br>', "\n";
                             }
                             ?>
                             </td>
